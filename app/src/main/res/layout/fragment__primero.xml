@@ -18,11 +18,13 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
             android:gravity="center_horizontal"
             android:padding="5dp"
-            android:textColor="@android:color/white"
             android:text="@string/bienvenidos"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -50,7 +52,8 @@
                     android:gravity="center_horizontal"
                     android:padding="5dp"
                     android:text="@string/nombre"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/Et1"
@@ -85,7 +88,8 @@
                     android:gravity="center_horizontal"
                     android:padding="5dp"
                     android:text="@string/apellido"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/Et2"
